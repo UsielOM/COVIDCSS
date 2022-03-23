@@ -1,0 +1,192 @@
+.divF {
+    display: flex;
+    /* display: inline-flex; */
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cardC {
+    /* background-color: white; */
+    margin-top: 150px;
+    width: 730px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border: 5px solid #0A67AE;
+}
+
+.cardF {
+    width: 720px;
+    height: 370px;
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.55);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.logoT {
+    padding-top: 20px;
+    /* background-color: blue; */
+    width: 200px;
+    height: 70px;
+    margin-right: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.inputC {
+    /* background-color: yellow; */
+    width: 600px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inputFormat {
+    border-radius: 25px;
+    width: 450px;
+    background-color: white;
+}
+
+.botonF {
+    /* background-color: yellow; */
+    width: 550px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    margin-left: -120px;
+}
+
+.botonS {
+    box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color: #79bbff;
+    border-radius: 6px;
+    border: 1px solid #84bbf3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528ecc;
+    margin-left: 120px;
+}
+
+.txtR {
+    /* background-color: yellow; */
+    width: 550px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and ( max-width: 375px) {
+    .cardC {
+        /* background-color: white; */
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cardF {
+        width: 150px;
+        height: 50px;
+        border-radius: 20px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background: rgba( 255, 255, 255, 0.55);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        backdrop-filter: blur( 4px);
+        -webkit-backdrop-filter: blur( 4px);
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18);
+    }
+    .logoT {
+        padding-top: 20px;
+        /* background-color: blue; */
+        width: 20px;
+        height: 10px;
+        margin-right: 20px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    .inputC {
+        /* background-color: yellow; */
+        width: 50px;
+        height: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .inputFormat {
+        border-radius: 25px;
+        width: 450px;
+        background-color: white;
+    }
+    .botonF {
+        /* background-color: yellow; */
+        width: 50px;
+        height: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+        margin-left: -120px;
+    }
+    .botonS {
+        background-color: blue;
+        border-radius: 10px;
+        color: white;
+        margin-left: 120px;
+    }
+    .txtR {
+        /* background-color: yellow; */
+        width: 55px;
+        height: 50px;
+        margin-top: 40px;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

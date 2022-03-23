@@ -1,0 +1,15 @@
+button {
+    border: none;
+    color: white;
+}
+
+.a {
+    color: white;
+}
+
+.nav-linkI {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+}

@@ -1,0 +1,18 @@
+.divF {
+    display: flex;
+    /* display: inline-flex; */
+    flex-wrap: wrap;
+}
+
+.imgT {
+    width: 550px;
+    height: 700px;
+}
+
+@media screen and ( max-width: 375px) {
+    .imgT {
+        margin-top: 70px;
+        width: 340px;
+        height: 650px;
+    }
+}

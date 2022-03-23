@@ -3,10 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { InfoCovidComponent } from './components/HomePage/info-covid/info-covid.component';
+import { LoginComponent } from './components/HomePage/login/login.component';
+import { Login2Component } from './components/HomePage/login2/login2.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    HomeComponent,
+    FooterComponent,
+    InfoCovidComponent,
+    LoginComponent,
+    Login2Component,
+ 
   ],
   imports: [
     BrowserModule,
