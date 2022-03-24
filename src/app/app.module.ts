@@ -9,6 +9,9 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { InfoCovidComponent } from './components/HomePage/info-covid/info-covid.component';
 import { LoginComponent } from './components/HomePage/login/login.component';
 import { Login2Component } from './components/HomePage/login2/login2.component';
+import { PruebasComponent } from './components/Pages/pruebas/pruebas.component';
+import { ContainerComponent } from './components/PracticasB/container/container.component';
+import { GridComponent } from './components/PracticasB/grid/grid.component';
 
 
 @NgModule({
@@ -20,6 +23,9 @@ import { Login2Component } from './components/HomePage/login2/login2.component';
     InfoCovidComponent,
     LoginComponent,
     Login2Component,
+    PruebasComponent,
+    ContainerComponent,
+    GridComponent,
  
   ],
   imports: [
