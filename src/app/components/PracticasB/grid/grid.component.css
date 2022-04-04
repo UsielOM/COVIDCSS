@@ -1,0 +1,15 @@
+/* Pares */
+
+[class^="col"]:nth-child(even) {
+    background-color: teal;
+}
+
+
+/* --------------------------------- */
+
+
+/* Impares */
+
+[class^="col"]:nth-child(odd) {
+    background-color: orange;
+}
