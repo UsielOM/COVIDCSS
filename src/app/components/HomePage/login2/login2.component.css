@@ -1,3 +1,7 @@
 .bg {
     background-image: url(https://covid19.tijuana.gob.mx/assets/images/info3.jpg);
 }
+
+.bodoyLg {
+    background: linear-gradient(to bottom right, blue, white);
+}

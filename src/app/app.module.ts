@@ -9,6 +9,13 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { InfoCovidComponent } from './components/HomePage/info-covid/info-covid.component';
 import { LoginComponent } from './components/HomePage/login/login.component';
 import { Login2Component } from './components/HomePage/login2/login2.component';
+import { RegisterPageComponent } from './components/register-page/register-page.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { RegisterComponent } from './components/HomePage/register/register.component';
+import { UserpageComponent } from './Pages/userpage/userpage.component';
+import { NavbaruserComponent } from './components/User/navbaruser/navbaruser.component';
+import { NavbarsideComponent } from './components/User/navbarside/navbarside.component';
+import { InfosideComponent } from './components/User/infoside/infoside.component';
 
 
 @NgModule({
@@ -20,10 +27,18 @@ import { Login2Component } from './components/HomePage/login2/login2.component';
     InfoCovidComponent,
     LoginComponent,
     Login2Component,
+    RegisterPageComponent,
+    MenuComponent,
+    RegisterComponent,
+    UserpageComponent,
+    NavbaruserComponent,
+    NavbarsideComponent,
+    InfosideComponent,
  
   ],
   imports: [
     BrowserModule,
+    
     AppRoutingModule
   ],
   providers: [],

@@ -9,6 +9,7 @@
 
 .body {
     background: gainsboro;
+    /* background: linear-gradient(to bottom right, #0A67AE, white, #0A67AE); */
     position: relative;
     padding-bottom: 58px;
     min-height: 100vh;
